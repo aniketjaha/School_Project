@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow:visible;
+}
+.First-Section{
+    height:100%;
+    background-image: url('/assets/images/b-image.png');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+.overley_color{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.information button{
+    background-color: rgba(141, 92, 246, 1);
+    padding:5px;
+    width: 137px;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+.main_content button{
+    background-color: rgba(141, 92, 246, 1);
+    padding:5px;
+    font-size: 15px;
+    width: 137px;
+    height: 40px;
+}
+.main_content{
+    position: absolute;
+    top:18vh;
+    left:0;
+    right:0;
+}
+.main_content button{
+    border:none;
+    outline: none;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+    /* Styles */
+    /* .navbar{
+        /* margin-top: 0px !important; */
+        
+        .navbar-toggler:hover {
+            text-decoration: none;
+            border: none !important;
+            outline: none;
+            
+        }
+        .navbar-collapse{
+            
+            color:black;
+            text-align: center;
+            z-index: 1;
+            background-color: white;
+            border: 1px solid white;
+            
+        }
+
+        .navbar-collapse p{
+            color: black;
+        }
+        .navbar-collapse .navbar-text{
+            margin-left: 23% !important;
+        }
+        .navbar .last{
+            display:flex;
+            gap:20px;
+        }
+        .navbar .navbar-collapse{
+            background-color: white !important;
+            
+        }
+        .navbar .navbar-collapse a{
+            color:black !important;
+        }
+        .information .navbar-toggler{
+            width:55px !important;
+        }
+        .navbar-collapse{
+            background-color: white;
+            color:black;
+            text-align: center;
+            z-index: 1;
+            
+        }
+        .navbar-collapse .nav-item .nav-link {
+            color: black !important;
+        }
+        .navbar-toggler:hover {
+            text-decoration: none;
+            border: none !important;
+            outline: none;
+            
+        }
+        .navbar-collapse{
+            
+            color:black;
+            text-align: center;
+            z-index: 1;
+            background-color: white;
+            border: 1px solid white;
+            
+        }
+        .navbar-collapse p{
+            color: black;
+        }
+        .navbar-collapse .navbar-text{
+            margin-left: 29%;
+        }
+        
+        .information .navbar-toggler{
+            width:55px !important;
+        }
+        #Second-Section .first_second_box{
+            margin-bottom: 10vh;
+            height: 0vh;
+        }
+        #Second-Section .second_second_box{
+            margin-top: 4vh !important;
+        }
+        #Second-Section .third_second_box{
+            margin-top: 8vh !important;
+        }
+        #Second-Section .fourth_second_box{
+            margin-top: 12vh !important;
+        }
+        #third-section .third-section_gimage{
+            height: 50vh !important;
+           
+        }
+        #nine-Section .nine_second_box{
+            margin-left: 0vh !important;
+        }
+        
+        .footer_div{
+            display: block;
+        
+        }
+        .footer_div .social_icon{
+            display: none;
+        }
+        .navbar-collapse .nav-item .nav-link{
+            color:black;
+            
+        }
+        .four_box{
+            margin-top:5vh !important;
+            gap:4px
+        }
+        .eight_box h5{
+            text-align: center;
+        }
+        /* /////////////////////////////////////////////////? */
+        /* third Section */
+        
+        #third-section .third_box_Mheading{
+            text-align: center !important;
+        }
+        /* //////////////////////////////////////////// */
+        /* first_fourth_images and icons */
+        #fourth-section .four_courses_firsT_imgs{
+            /* position: absolute;
+            left:15vh !important;
+            top:616vh !important; */
+            margin-left: 8vh;
+
+        }
+        #fourth-section .four_courses_firsT_sale{
+            /* position:absolute !important;
+            top: 570vh !important;
+            left: 8vh !important; */
+        }
+        /* second_fourth_images and icons */
+        #fourth-section .four_courses_second_imgs{
+            margin-left: 8vh;
+
+        }
+        #fourth-section .four_courses_second_sale{
+            position:absolute !important;
+            top: 695vh !important;
+            left: 8vh !important;
+        }
+        /* third_fourth_images and icons */
+        #fourth-section .four_courses_third_imgs{
+            position: absolute;
+            left:15vh !important;
+            top:862vh !important;
+
+        }
+        #fourth-section .four_courses_third_sale{
+            position:absolute !important;
+            top: 820vh !important;
+            left: 8vh !important;
+        }
+        /* four_fourth_images and icons */
+        #fourth-section .four_courses_fourth_imgs{
+            position: absolute;
+            left:15vh !important;
+            top:990vh !important;
+
+        }
+        #fourth-section .four_courses_fourth_sale{
+            position:absolute !important;
+            top: 940vh !important;
+            left: 8vh !important;
+        }
+        /* ////////////////////////////////////// */
+        #fourth-section .fourth_box_Mheading{
+            text-align: center;
+        }
+        #fourth-section .second_Fourth_box{
+            margin-top:8px !important;
+        }
+        #fourth-section .third_Fourth_box{
+            margin-top:15px !important;
+        }
+        #fourth-section .fourth_Fourth_box{
+            margin-top:23px !important;
+        }
+        /* /////////////////////////////////////////////// */
+        /* fifth section first box*/
+        #fifth-section .fifth_box_Mheading{
+            text-align: center;
+        }
+        
+        #fifth-section .fifth_First_box .fifth_First_box_circle{
+           margin-left: 17vh !important; 
+        }
+        /* fifth section second box*/
+        #fifth-section .fifth_Second_box{
+            margin-top: 8vh !important;
+        }
+        #fifth-section .fifth_Second_box .fifth_Second_box_circle{
+            margin-left: 30% !important; 
+         }
+        #fifth-section .fifth_Second_box .fifth_Second_box_New_circle{
+            height:12vh !important; 
+            left:11vh !important;
+         }
+         
+         /* fifth section Third box*/
+         #fifth-section .fifth_Third_box{
+            margin-top: 12vh !important;
+        }
+         #fifth-section .fifth_Third_box .fifth_Third_box_circle{
+            margin-left: 30% !important; 
+         }
+
+    /* /////////////////////////////////////////////////////////////// */
+/* Six Section */
+    #six-section .Second_Client__box{
+        margin-top: 8vh !important;
+    }
+    #six-section .six_box_Mheading{
+        text-align: center;
+    }
+    /* ///////////////////////////////////////////////////////////// */
+    /* information contact and other */
+    #Eight-section .first_box_Eight-section{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    #Eight-section .second_box_Eight-section{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    #Eight-section .third_box_Eight-section{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    #Eight-section .fourth_box_Eight-section{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    #Eight-section .fifth_box_Eight-section{
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+    }
+    .navbar-collapse{
+        padding: 4vh !important;
+    }
+    #fourth-section .fouth-div{
+        margin-top:5vh !important;
+    }
+    #fifth-section .fifth-div{
+        margin-top:8vh !important;
+    }
+    /* #footer_div {
+        display: flex;
+        justify-content: center;
+        
+    } */
+    #Nine-Section .second_box_nine_second{
+        text-align: center;
+    }
+    }
+
+
+
+
+
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+        
+        /* Navbar */
+        .navbar-toggler:hover {
+            text-decoration: none;
+            border: none !important;
+            outline: none;
+            
+        }
+        .navbar-collapse{
+            
+            color:black;
+            text-align: center;
+            z-index: 1;
+            background-color: white;
+            border: 1px solid white;
+            
+        }
+        .navbar-collapse p{
+            color: black;
+        }
+        .navbar-collapse .navbar-text{
+            margin-left: 40%;
+        }
+        .navbar .last{
+            display:flex;
+            gap:20px;
+        }
+        .navbar .navbar-collapse{
+            background-color: white !important;
+            
+        }
+        .navbar .navbar-collapse a{
+            color:black !important;
+        }
+
+        #fourth-section .four_courses_second_imgs{
+            position: absolute !important;
+            left:20% !important;
+        }
+
+        /* Third Section GirlImage */
+        #third-section .third-section_gimage{
+            height: 70vh !important;
+        }
+        #third-section .third_box_Mheading{
+            margin-top: 15vh;
+        }
+
+        /* Fourth Section GirlImage */
+        #fourth-section .four_courses_firsT_imgs{
+            position: absolute !important;
+            left:23% !important;
+        }
+        #fourth-section .second_Fourth_box_imgs{
+            position: absolute !important;
+            left:23% !important;
+        }
+
+        /* Nine Section */
+
+        #Nine-Section .first_box_nine_first{
+            text-align: center;
+        }
+        #Nine-Section .second_box_nine_second{
+            text-align: center;
+        }
+        /* ///////////////////////////////////// */
+
+
+
+        #Eight-section .fourth_box_Eight-section{
+            margin-left: 20vh !important;
+        }
+        #fourth-section .third_Fourth_box{
+            margin-top: 4vh !important;
+
+        }
+        #fourth-section .fourth_Fourth_box{
+            margin-top: 4vh !important;
+
+        }
+        #fifth-section .fifth_First_box .fifth_First_box_circle{
+            margin-left: 20vh !important;
+         }
+         #fifth-section .fifth_Second_box .fifth_Second_box_circle{
+            margin-left: 20vh !important;
+         }
+         #fifth-section .fifth_Third_box .fifth_Third_box_circle{
+            margin-left: 20vh !important;
+         }
+        #Second-Section .second_second_box{
+            margin-top:0vh !important;
+        }
+        #Second-Section .fourth_second_box{
+            margin-top: 2vh !important;
+        }
+        #Second-Section .third_second_box{
+            margin-top: 2vh !important;
+        }
+        #fifth-section .fifth_Third_box{
+            margin-top: 4vh !important;
+        }
+        #Second-Section .second_box_Mheading{
+            text-align: center !important;
+        }
+        
+       
+        
+        #fourth-section .fourth_box_Mheading{
+            text-align: center !important;
+        }
+
+        #fifth-section .fifth_box_Mheading{
+            text-align: center !important;
+        }
+        #six-section .six_box_Mheading{
+            text-align: center;
+        }
+         /* 
+        
+        #fourth-section .third_Fourth_box{
+            margin-top: 4vh !important;
+        }
+        #fourth-section .fourth_Fourth_box{
+            margin-top: 4vh !important;
+        }
+        #fifth-section .fifth_Third_box{
+            margin-top: 4vh !important;
+        } */
+         #fifth-section .fifth_Second_box .fifth_Second_box_New_circle{
+            position:absolute !important;
+            left: 20vh !important;
+        }
+        #fifth-section .fifth_Second_box {
+            margin-top: 0vh !important;
+        }
+        #six-section .Second_Client__box{
+            margin-top: 0vh !important;
+        }
+        
+        #fourth-section .four_courses_firsT_imgs{
+            position: absolute;
+            
+
+        }
+        #fourth-section .four_courses_second_imgs{
+            position: absolute;
+            
+
+        }
+        #fourth-section .four_courses_third_imgs{
+            position: absolute;
+            
+
+        }
+        #fourth-section .four_courses_fourth_imgs{
+            position: absolute !important;
+            
+        }
+        #fourth-section .four_courses_firsT_sale{
+            position:absolute !important;
+           
+        }
+        /* #fourth-section .four_courses_second_sale{
+            position:absolute !important;
+            top: 340vh !important;
+            left: 60vh !important;
+        }
+        #fourth-section .four_courses_third_sale{
+            position:absolute !important;
+            top: 443vh !important;
+            left: 8vh !important;
+        }
+        #fourth-section .four_courses_fourth_sale{
+            position:absolute !important;
+            top: 443vh !important;
+            left: 60vh !important;
+        } */
+
+
+    }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 425px) {
+        #fifth-section .fifth_Second_box .fifth_Second_box_New_circle{
+            position:absolute !important;
+            left:22vh !important;
+        }
+        .navbar-toggler:hover {
+            text-decoration: none;
+            border: none !important;
+            outline: none;
+            
+        }
+        #fifth-section .fifth_Second_box .fifth_First_box_circle{
+            margin-left: 8vh !important;
+        }
+        #fifth-section .fifth_Second_box_circle{
+            margin-left: 30vh !important;
+        }
+        #fifth-section .fifth_Third_box_circle{
+            margin-left: 30vh !important;
+        }
+        .navbar-collapse{
+            
+            color:black;
+            text-align: center;
+            z-index: 1;
+            background-color: white;
+            border: 1px solid white;
+            
+        }
+        .navbar-collapse p{
+            color: black;
+        }
+        .navbar-collapse .navbar-text{
+            margin-left: 29%;
+        }
+
+
+
+
+        #fourth-section .four_courses_firsT_imgs{
+            position: absolute;
+            margin-left: 12vh;
+            
+
+        }
+        .navbar .last{
+            display:flex;
+            gap:20px;
+        }
+        .navbar .navbar-collapse{
+            background-color: white !important;
+            
+        }
+        .navbar .navbar-collapse a{
+            color:black !important;
+        }
+        .information .navbar-toggler{
+            width:55px !important;
+        }
+        #third-section .third-section_gimage{
+            height: 50vh !important;
+            margin-left: 10vh;
+        }
+        #Nine-Section .second_box_nine_second{
+            text-align: center;
+        }
+        }
+
+    
+    @media only screen and (min-device-width : 425px) and (max-device-width : 767px) {
+                
+        /* Navbar */
+                .navbar-toggler:hover {
+                    text-decoration: none;
+                    border: none !important;
+                    outline: none;
+                    
+                }
+                .navbar-collapse{
+                    
+                    color:black;
+                    text-align: center;
+                    z-index: 1;
+                    background-color: white;
+                    border: 1px solid white;
+                    
+                }
+                .navbar-collapse p{
+                    color: black;
+                }
+                .navbar-collapse .navbar-text{
+                    margin-left: 33%;
+                }
+                .navbar .last{
+                    display:flex;
+                    gap:20px;
+                }
+                .navbar .navbar-collapse{
+                    background-color: white !important;
+                    
+                }
+                .navbar .navbar-collapse a{
+                    color:black !important;
+                }
+                /* ///////////////////////////////////////// */
+
+
+                #Second-Section .first_second_box{
+                    margin-bottom: 10vh;
+                    height: 0vh;
+                }
+                #Second-Section .second_second_box{
+                    margin-top: 4vh !important;
+                }
+                #Second-Section .third_second_box{
+                    margin-top: 8vh !important;
+                }
+                #Second-Section .fourth_second_box{
+                    margin-top: 12vh !important;
+                }
+                #six-section .Second_Client__box{
+                    margin-top: 8vh !important;
+                }
+                #six-section .six_box_Mheading{
+                    text-align: center;
+                }
+
+              
+        /* Third Section GirlImage */
+        #third-section .third-section_gimage{
+            height: 50vh !important;
+            margin-left: 15vh;
+        }
+        #third-section .third_box_Mheading{
+            margin-top: 5vh;
+            text-align: center !important;
+        }
+
+        /* ///////////////////////////////////// */
+        /* Fourth Section */
+        #fourth-section .fourth_box_Mheading{
+            text-align: center !important;
+        }
+
+        #fourth-section .four_courses_firsT_imgs{
+            position: absolute;
+            margin-left: 15vh;
+            
+
+        }
+        
+        /* //////////////////////////////////////////// */
+        /* fifth Section */
+        #fifth-section .fifth_box_Mheading{
+            text-align: center !important;
+        }
+        #fifth-section .fifth_First_box .fifth_First_box_circle{
+            margin-left: 30vh !important;
+        }
+        #fifth-section .fifth_Second_box_circle{
+            margin-left: 30vh !important;
+        }
+        #fifth-section .fifth_Third_box_circle{
+            margin-left: 30vh !important;
+        }
+
+
+        #fourth-section .fourth_box_Mheading{
+            text-align: center;
+        }
+        #fourth-section .second_Fourth_box{
+            margin-top:8px !important;
+        }
+        #fourth-section .third_Fourth_box{
+            margin-top:15px !important;
+        }
+        #fourth-section .fourth_Fourth_box{
+            margin-top:23px !important;
+        }
+
+
+
+
+        #six-section .six_box_Mheading{
+            text-align: center;
+        }
+        #fifth-section .fifth_Second_box{
+            margin-top: 2vh !important;
+        }
+        
+        #fifth-section .fifth_Second_box .fifth_Second_box_New_circle{
+            position:absolute !important;
+            left:28vh !important;
+        }
+        #fifth-section .fifth_Third_box{
+            margin-top: 4vh !important;
+        }
+        #Nine-Section .second_box_nine_second{
+            text-align: center;
+        }
+        
+    }
+    @media only screen and (min-device-width : 1024px) and (max-device-width : 1439px) {
+        #fourth-section .four_courses .four_courses_firsT_imgs{
+            position: absolute;
+            left: 0;
+        }
+        .navbar .last{
+            display:flex;
+            gap:20px;
+        }
+        .nav-item .Join_us_second_button{
+            margin-left: 5vh !important;
+        }
+        .navbar-collapse .navbar-nav{
+            margin-left:12vh;
+
+        }
+        .last .navbar-text{
+            display: flex;
+            gap:20px;
+        }
+        #third-section .third_box_Mheading{
+            margin-top:25% !important;
+            margin-left: 15%;
+        }
+        #fourth-section .four_courses_firsT_imgs{
+            position: absolute !important;
+            left:23% !important;
+        }
+        
+        
+        #fourth-section .four_courses_firsT_imgs_like{
+            height: 6vh !important;
+        }#fourth-section .four_courses_firsT_imgs_basket{
+            height: 6vh !important;
+        }
+        #fourth-section .four_courses_firsT_imgs_eye{
+            height: 6vh !important;
+        }
+        /* ///////////////////////////// */
+        #fourth-section .second_Fourth_box_imgs{
+            position: absolute !important;
+            left:23% !important;
+        }
+        #fourth-section .second_Fourth_box_like{
+            height: 6vh !important;
+        }
+        #fourth-section .second_Fourth_box_basket{
+            height: 6vh !important;
+        }
+        #fourth-section .second_Fourth_box_eye{
+            height: 6vh !important;
+        }
+        #fourth-section .third_Fourth_box_like{
+            height: 6vh !important;
+        }
+        #fourth-section .third_Fourth_box_basket{
+            height: 6vh !important;
+        }
+        #fourth-section .third_Fourth_box_eye{
+            height: 6vh !important;
+        }
+        #fourth-section .fourth_Fourth_box_like{
+            height: 6vh !important;
+        }
+        #fourth-section .fourth_Fourth_box_basket{
+            height: 6vh !important;
+        }
+        #fourth-section .fourth_Fourth_box_eye{
+            height: 6vh !important;
+        }
+        /* Nine Section */
+        #Nine-Section .first_div_nine_section .first_box_nine_first{
+            margin-left: 6vh !important;
+        }
+        #Nine-Section .first_div_nine_section .second_box_nine_second{
+            margin-left: 60% !important;
+        }
+
+        
+        .nav-item .nav-link .Join_us_second_btn{
+            /* margin-left: 15vh !important; */
+        }
+        .navbar{
+            display: flex;
+        }
+        .navbar-nav{
+            margin-top: 2vh;
+            /* margin-left: 30vh !important; */
+        }
+        /* #nd  .nav-link{
+            margin-left: 30vh !important;
+
+        }
+         */
+
+        /* .navbar{
+            display: flex !important;
+            margin-top: 0vh;
+        } */
+        .navbar-brand{
+            margin-left: 20vh;
+        }
+        #fifth-section .fifth_Second_box .fifth_Second_box_New_circle{
+            position:absolute !important;
+            left:18vh !important;
+        }
+    }
+body{
+    background-color: #26335D;
+}
+
+.first_Fourth_box{
+    position: relative;
+}
